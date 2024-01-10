@@ -18,6 +18,10 @@
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.min.js"></script>
 <!-- Page specific script -->
+<!-- sweet alert -->
+<script src="dist/js/sweetalert.min.js"></script>
+<!-- alertify -->
+<script src="dist/js/alertify.min.js"></script>
 <script>
   $(function () {
     $("#example1").DataTable({

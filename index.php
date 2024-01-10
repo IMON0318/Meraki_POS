@@ -17,7 +17,7 @@
     if (isset($_GET['error'])) {
         $error = $_GET['error'];
         echo "<p class='fadeIn' id='error-message' style='color: red;'>$error</p>";
-        echo "<script>
+        echo "<script >
                 setTimeout(function() {
                     var errorMessage = document.getElementById('error-message');
                     if (errorMessage) {

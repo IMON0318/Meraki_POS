@@ -34,6 +34,7 @@ $conn->close();
 <!DOCTYPE html>
 <html lang="en">
   <?php include 'includes/header.php';?>
+  <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
 
@@ -44,6 +45,9 @@ $conn->close();
 
 <?php include 'includes/nav.php'; ?>
 <?php include 'includes/sidebar.php';?>
+
+
+
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -61,7 +65,7 @@ $conn->close();
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
-
+    
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
@@ -362,6 +366,15 @@ $conn->close();
   <!-- /.control-sidebar -->
 
   <?php include 'includes/footer.php';?>
+  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+  
+
+  <script>
+
+    alertify.set('notifier','position', 'top-right');
+    alertify.success('Current position : ' + alertify.get('notifier','position'));
+  
+  </script>
 </div>
 <!-- ./wrapper -->
 
