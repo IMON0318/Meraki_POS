@@ -193,23 +193,9 @@ $data = $conn->query("SELECT * FROM client_supplier_tbl WHERE role = 2");
     </form>
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
   <!-- /.content-wrapper -->
+  
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar">
