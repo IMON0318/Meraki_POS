@@ -366,15 +366,6 @@ $conn->close();
   <!-- /.control-sidebar -->
 
   <?php include 'includes/footer.php';?>
-  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
-  
-
-  <script>
-
-    alertify.set('notifier','position', 'top-right');
-    alertify.success('Current position : ' + alertify.get('notifier','position'));
-  
-  </script>
 </div>
 <!-- ./wrapper -->
 
