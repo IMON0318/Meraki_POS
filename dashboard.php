@@ -34,8 +34,8 @@ $conn->close();
 <!DOCTYPE html>
 <html lang="en">
   <?php include 'includes/header.php';?>
-  <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+
 <div class="wrapper">
 
   <!-- Preloader -->
